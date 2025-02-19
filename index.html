@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+
+        <div class="container_card">
+        <img id="image" src="thermometer.png" alt="Temperature thermometer">
+        <h3>Temperature Converter</h3>
+        <input type="number" id="ip" value="0" autocomplete="off"><br>
+        <input type="radio" id="toFahrenheit" name="conversion" ></input>
+        <label>Celsius &rarr; Fahrenheit</label><br>
+        <input type="radio" id="toCelsius" name="conversion" ></input>
+        <label>Fahrenheit &rarr; Celsius</label><br>
+        <button type="submit" onclick="convert()">Submit</button>
+        <h3 id="result"></h3>
+        </div>
+
+
+     <script src="script.js"></script> 
+</body>
+</html>
